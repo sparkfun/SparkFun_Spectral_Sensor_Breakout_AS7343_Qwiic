@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "AS7343")(type "KiCad")(uri "${KIPRJMOD}/AS7343.pretty")(options "")(descr ""))
+)
