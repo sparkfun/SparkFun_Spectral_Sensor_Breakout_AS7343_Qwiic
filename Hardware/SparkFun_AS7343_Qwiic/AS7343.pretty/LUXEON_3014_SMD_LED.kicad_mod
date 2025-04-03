@@ -292,4 +292,15 @@
 		(thermal_bridge_angle 0)
 		(uuid "229d3c46-0cab-4f40-8010-4ba3c80505f5")
 	)
+	(model "${KIPRJMOD}/3D_Models/LUXEON_3014.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

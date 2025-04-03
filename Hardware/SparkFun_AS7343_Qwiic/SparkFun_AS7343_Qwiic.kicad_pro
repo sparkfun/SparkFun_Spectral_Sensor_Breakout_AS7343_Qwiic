@@ -517,7 +517,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "SparkFun_AS7343_Qwiic.step",
       "svg": "",
       "vrml": ""
     },
