@@ -1,7 +1,7 @@
 (footprint "LUXEON_3014_SMD_LED"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "3014 Package for LEDs")
 	(property "Reference" "REF**"
@@ -30,18 +30,6 @@
 			(justify left bottom)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "9a8b609c-3ddc-4f6c-90cc-615421906cd2")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
 	(property "Datasheet" "https://otmm.lumileds.com/adaptivemedia/770601a40a2e1e11ffbecd7c7e5fae5e34b9d03e"
 		(at 0.623 2.887 0)
 		(layer "F.Fab")
@@ -65,42 +53,6 @@
 				(thickness 0.15)
 			)
 		)
-	)
-	(fp_poly
-		(pts
-			(xy -1.5 0.3) (xy -0.9 0.3) (xy -0.9 -0.3) (xy -1.5 -0.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill solid)
-		(layer "F.Paste")
-		(uuid "5bc5a77d-4f7b-4a52-bbc8-0e737079eea5")
-	)
-	(fp_poly
-		(pts
-			(xy 0 0.3) (xy 0.6 0.3) (xy 0.6 -0.3) (xy 0 -0.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill solid)
-		(layer "F.Paste")
-		(uuid "d21660fc-b250-4267-97d5-2be3b0956bf7")
-	)
-	(fp_poly
-		(pts
-			(xy 1 0.3) (xy 1.6 0.3) (xy 1.6 -0.3) (xy 1 -0.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill solid)
-		(layer "F.Paste")
-		(uuid "7a87906e-f9a2-43bd-8388-450eb271649b")
 	)
 	(fp_line
 		(start -1.5 -0.7)
@@ -171,6 +123,42 @@
 		)
 		(layer "F.SilkS")
 		(uuid "56ea01c7-bf02-4601-a04b-aeaaea6ca988")
+	)
+	(fp_poly
+		(pts
+			(xy -1.5 0.3) (xy -0.9 0.3) (xy -0.9 -0.3) (xy -1.5 -0.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "5bc5a77d-4f7b-4a52-bbc8-0e737079eea5")
+	)
+	(fp_poly
+		(pts
+			(xy 0 0.3) (xy 0.6 0.3) (xy 0.6 -0.3) (xy 0 -0.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "d21660fc-b250-4267-97d5-2be3b0956bf7")
+	)
+	(fp_poly
+		(pts
+			(xy 1 0.3) (xy 1.6 0.3) (xy 1.6 -0.3) (xy 1 -0.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "7a87906e-f9a2-43bd-8388-450eb271649b")
 	)
 	(fp_line
 		(start -1.905 -0.889)
@@ -260,7 +248,7 @@
 			(width 0)
 			(type default)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Fab")
 		(uuid "64aa6119-e09c-486f-aa3e-256eebf89055")
 	)
@@ -272,7 +260,7 @@
 			(width 0)
 			(type default)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Fab")
 		(uuid "d3c513ea-3461-482c-aa6a-80d91f0ab383")
 	)
@@ -292,6 +280,7 @@
 		(thermal_bridge_angle 0)
 		(uuid "229d3c46-0cab-4f40-8010-4ba3c80505f5")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/3D_Models/LUXEON_3014.step"
 		(offset
 			(xyz 0 0 0)
