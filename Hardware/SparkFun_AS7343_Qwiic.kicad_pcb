@@ -364,7 +364,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/0028555b-a0bb-4372-b83f-4d241990a0cb")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "SparkFun_AS7343_Qwiic.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -594,7 +594,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/a3bae264-bfb0-4f60-a812-d72fc2d73cf3")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "SparkFun_AS7343_Qwiic.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -799,7 +799,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/1609aefc-5768-4df7-8ef3-7c6c242b377d")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "SparkFun_AS7343_Qwiic.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1003,7 +1003,7 @@
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/91c44d19-c7cc-4172-97a4-182308f26ab0")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "SparkFun_AS7343_Qwiic.kicad_sch")
 		(fp_line
 			(start 1.5 -0.7)
@@ -1511,7 +1511,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/7a0ad3e9-ba46-4f02-8faf-32dacee1ae2a")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "SparkFun_AS7343_Qwiic.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1713,7 +1713,7 @@
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/50fd615d-ccb5-48c4-b08c-2b3e879551d1")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "SparkFun_AS7343_Qwiic.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1906,7 +1906,7 @@
 		)
 		(property ki_fp_filters "Fiducial*")
 		(path "/3602d096-a2c9-48c7-93d8-ae094ffbafd9")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "SparkFun_AS7343_Qwiic.kicad_sch")
 		(attr smd)
 		(fp_circle
@@ -1997,7 +1997,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/50963b34-7e59-414f-91bd-d6a88a7744dd")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "SparkFun_AS7343_Qwiic.kicad_sch")
 		(fp_rect
 			(start -1.27 -1.27)
@@ -2245,7 +2245,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/5dc49209-59c7-4ce7-b2ca-0201cee23de0")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "SparkFun_AS7343_Qwiic.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2581,7 +2581,7 @@
 			)
 		)
 		(path "/71057fc8-7510-417f-a5c8-253b7bdf44e2")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "SparkFun_AS7343_Qwiic.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2869,7 +2869,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/b6da6a9d-7766-4336-b283-72a0ef781ba9")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "SparkFun_AS7343_Qwiic.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3077,7 +3077,7 @@
 		)
 		(property ki_fp_filters "Fiducial*")
 		(path "/6685cf0a-6943-4c54-8d4f-b9f189ce2a54")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "SparkFun_AS7343_Qwiic.kicad_sch")
 		(fp_circle
 			(center 0 0)
@@ -3468,7 +3468,7 @@
 		)
 		(property ki_fp_filters "Fiducial*")
 		(path "/3c7aca20-7739-4ab5-bf9c-7eade66994b3")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "SparkFun_AS7343_Qwiic.kicad_sch")
 		(attr smd)
 		(fp_circle
@@ -3515,7 +3515,7 @@
 			(effects
 				(font
 					(size 0.5 0.5)
-					(thickness 0.15)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -3526,11 +3526,11 @@
 			(effects
 				(font
 					(size 0.5 0.5)
-					(thickness 0.15)
+					(thickness 0.125)
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://look.ams-osram.com/m/5f2d27fff9a874d2/original/AS7343-14-Channel-Multi-Spectral-Sensor.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3556,7 +3556,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" ""
+		(property "PROD_ID" "IC-26195"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3570,7 +3570,7 @@
 			)
 		)
 		(path "/6ec18306-f9f4-452b-a9c6-99b7481faf13")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "SparkFun_AS7343_Qwiic.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3975,7 +3975,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/e99ef319-9d56-481f-bcd2-e57822056fbe")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "SparkFun_AS7343_Qwiic.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4194,7 +4194,7 @@
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/65b11677-fd5c-4741-837f-dceea63117bf")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "SparkFun_AS7343_Qwiic.kicad_sch")
 		(fp_rect
 			(start -1.27 -1.27)
@@ -4534,7 +4534,7 @@
 			)
 		)
 		(path "/f9b68b98-e9e7-4c80-860d-80f4ae0141ba")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "SparkFun_AS7343_Qwiic.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4742,7 +4742,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/f4aecd9a-c87d-405c-80a4-2f1128ab5e12")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "SparkFun_AS7343_Qwiic.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5126,7 +5126,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/8e951456-e325-40a3-8fbd-11d099ede390")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "SparkFun_AS7343_Qwiic.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5453,7 +5453,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/9279e0bf-613e-43d6-a144-e5555127b271")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "SparkFun_AS7343_Qwiic.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5658,7 +5658,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/0c1e7869-cfa4-4da2-b8ae-450d20b016ea")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "SparkFun_AS7343_Qwiic.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5975,7 +5975,7 @@
 			)
 		)
 		(path "/61301b78-3cf8-402e-ace7-cf63f2f7db5b")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "SparkFun_AS7343_Qwiic.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_text user " https://creativecommons.org/licenses/by-sa/4.0/"
@@ -6250,7 +6250,7 @@
 		)
 		(property ki_fp_filters "Fiducial*")
 		(path "/56277993-b69c-4076-80f1-028732d58d81")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "SparkFun_AS7343_Qwiic.kicad_sch")
 		(fp_circle
 			(center 0 0)
@@ -6416,7 +6416,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/e31d4d15-97b3-4bb0-90a3-ef31651684a5")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "SparkFun_AS7343_Qwiic.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6607,7 +6607,7 @@
 		)
 		(property ki_fp_filters "Fiducial*")
 		(path "/7c6696af-f8ea-4dc6-9a32-3bca233b1d03")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "SparkFun_AS7343_Qwiic.kicad_sch")
 		(fp_circle
 			(center 0 0)
@@ -7070,7 +7070,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/5837fe7d-38ca-4380-97a8-b85b144f4495")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "SparkFun_AS7343_Qwiic.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7300,7 +7300,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/47880429-6d21-462a-9161-1ae5c6c1828f")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "SparkFun_AS7343_Qwiic.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7505,7 +7505,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/1af74571-466f-410f-b9ad-d704bc6aeb7a")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "SparkFun_AS7343_Qwiic.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7841,7 +7841,7 @@
 			)
 		)
 		(path "/e89dd13d-6d21-4df7-89ad-243a6120fa27")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "SparkFun_AS7343_Qwiic.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8257,7 +8257,7 @@
 		)
 		(property ki_fp_filters "Fiducial*")
 		(path "/01446c66-91f5-46d5-b726-b2bbfbf726eb")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "SparkFun_AS7343_Qwiic.kicad_sch")
 		(fp_circle
 			(center 0 0)
@@ -8515,7 +8515,7 @@
 		)
 		(property ki_fp_filters "SolderJumper*Bridged123*")
 		(path "/61064102-3340-40da-a47f-b534f627af5e")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "SparkFun_AS7343_Qwiic.kicad_sch")
 		(attr allow_soldermask_bridges)
 		(net_tie_pad_groups "1,2,3")
@@ -8755,7 +8755,7 @@
 		)
 		(property ki_fp_filters "SolderJumper*Bridged*")
 		(path "/b8ac0351-59c1-42a6-9084-e9e990e98a2e")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "SparkFun_AS7343_Qwiic.kicad_sch")
 		(attr allow_soldermask_bridges)
 		(net_tie_pad_groups "1,2")
@@ -8960,7 +8960,7 @@
 		)
 		(property ki_fp_filters "Fiducial*")
 		(path "/ecaab292-da05-4b4f-b1f6-747ad8f43456")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "SparkFun_AS7343_Qwiic.kicad_sch")
 		(attr smd)
 		(fp_circle
@@ -9186,7 +9186,7 @@
 		)
 		(property ki_fp_filters "Fiducial*")
 		(path "/b34b89d0-b9bd-477f-829d-749a87b7e2fb")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "SparkFun_AS7343_Qwiic.kicad_sch")
 		(attr smd)
 		(fp_circle
@@ -10537,7 +10537,7 @@
 		)
 		(property ki_fp_filters "SolderJumper*Bridged123*")
 		(path "/41489851-1da9-4273-aa35-4deb449abbfd")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "SparkFun_AS7343_Qwiic.kicad_sch")
 		(attr allow_soldermask_bridges)
 		(net_tie_pad_groups "1,2,3")
@@ -11078,7 +11078,7 @@
 		)
 		(property ki_fp_filters "SolderJumper*Bridged*")
 		(path "/5592d4b5-0d78-44fe-b5f2-ecbd9a0fea76")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "SparkFun_AS7343_Qwiic.kicad_sch")
 		(attr allow_soldermask_bridges)
 		(net_tie_pad_groups "1,2")
