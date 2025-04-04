@@ -5134,6 +5134,17 @@
 		)
 		(uuid "8c795be4-ddbc-450d-9114-3ed1c252ae36")
 	)
+	(text "I2C ADDRESS: 0x39"
+		(exclude_from_sim no)
+		(at 82.55 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 132 132 1)
+			)
+		)
+		(uuid "9e2eaeec-2e8e-495b-a776-baa69f9d3cc0")
+	)
 	(text "I²C Logic Level Conversion"
 		(exclude_from_sim no)
 		(at 210.82 20.32 0)
