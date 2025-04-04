@@ -2753,6 +2753,106 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SparkFun-Connector:TestPoint_1.0mm"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 5.08 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1.0mm"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "SparkFun-Connector:TestPoint-1.0mm"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Test Point"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_1.0mm_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1.0mm_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SparkFun-DiscreteSemi:Q_NMOS_0.2A_50V"
 			(pin_names
 				(offset 0)
@@ -3664,15 +3764,6 @@
 			)
 			(property "Description" "Light emitting diode PTH 0.1 inch headers"
 				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PROD_ID" "LED-"
-				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5124,6 +5215,18 @@
 		)
 		(uuid "09a839c1-a6c9-4c98-a6e9-11d1f07563a2")
 	)
+	(text "Cut jumper(s) to remove \nI2C pullup resistors"
+		(exclude_from_sim no)
+		(at 227.33 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 132 132 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "11fd70ec-555d-47a9-8df5-a796e5655b4e")
+	)
 	(text "1.8V Voltage Regulator"
 		(exclude_from_sim no)
 		(at 113.03 91.44 0)
@@ -5187,6 +5290,17 @@
 			)
 		)
 		(uuid "bd2cdf95-2c49-4843-b6ba-1c844f813c5c")
+	)
+	(text "VDD Range: 1.7-1.98V"
+		(exclude_from_sim no)
+		(at 73.66 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 132 132 1)
+			)
+		)
+		(uuid "be926e3c-3fe2-4c2c-b039-8f214781267f")
 	)
 	(text "Connectors"
 		(exclude_from_sim no)
@@ -5657,7 +5771,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 39.37) (xy 92.71 40.64)
+			(xy 92.71 41.91) (xy 92.71 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5667,7 +5781,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 45.72) (xy 92.71 55.88)
+			(xy 92.71 48.26) (xy 92.71 55.88)
 		)
 		(stroke
 			(width 0)
@@ -5926,6 +6040,17 @@
 		)
 		(uuid "915f6ba0-69b1-48b7-9084-689f5ad79236")
 	)
+	(polyline
+		(pts
+			(xy 200.66 55.88) (xy 226.06 34.29)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 132 132 132 1)
+		)
+		(uuid "94feff6e-3842-4a3e-a630-74c59214dfe2")
+	)
 	(wire
 		(pts
 			(xy 135.89 124.46) (xy 135.89 125.73)
@@ -5956,6 +6081,16 @@
 			(type default)
 		)
 		(uuid "9b06a28c-9930-4b43-b808-2bc3cdc89cb1")
+	)
+	(wire
+		(pts
+			(xy 135.89 118.11) (xy 139.7 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c0db9c7-bdcf-43a5-bc2f-4880714e936a")
 	)
 	(wire
 		(pts
@@ -6138,6 +6273,17 @@
 			(type default)
 		)
 		(uuid "ca27d31c-da7b-4840-a443-2131b4ae228f")
+	)
+	(polyline
+		(pts
+			(xy 222.25 55.88) (xy 226.06 35.56)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 132 132 132 1)
+		)
+		(uuid "d315c344-3a79-4a79-95f0-ab5e5103d5b4")
 	)
 	(polyline
 		(pts
@@ -6906,6 +7052,72 @@
 			(project "SparkFun_AS7343_Qwiic"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Connector:TestPoint_1.0mm")
+		(at 139.7 118.11 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c0c1bfa-f9da-4fdc-bc68-e7391d3d2099")
+		(property "Reference" "TP1"
+			(at 146.05 118.11 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.0mm"
+			(at 135.89 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SparkFun-Connector:TestPoint-1.0mm"
+			(at 133.35 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Point"
+			(at 129.54 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83b26338-1f80-4ebb-a052-08198a822488")
+		)
+		(instances
+			(project ""
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -8150,7 +8362,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Resistor:10k_0603")
-		(at 92.71 43.18 90)
+		(at 92.71 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8159,15 +8371,6 @@
 		(fields_autoplaced yes)
 		(uuid "5dc49209-59c7-4ce7-b2ca-0201cee23de0")
 		(property "Reference" "R2"
-			(at 95.25 41.9099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
 			(at 95.25 44.4499 90)
 			(effects
 				(font
@@ -8176,8 +8379,17 @@
 				(justify right)
 			)
 		)
+		(property "Value" "10k"
+			(at 95.25 46.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(property "Footprint" "SparkFun-Resistor:R_0603_1608Metric"
-			(at 97.028 43.18 0)
+			(at 97.028 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8186,7 +8398,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 101.6 43.18 0)
+			(at 101.6 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8195,7 +8407,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 104.14 43.18 0)
+			(at 104.14 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8204,7 +8416,7 @@
 			)
 		)
 		(property "PROD_ID" "RES-00824"
-			(at 99.06 43.18 0)
+			(at 99.06 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8474,15 +8686,6 @@
 		)
 		(property "Description" "Light emitting diode PTH 0.1 inch headers"
 			(at 135.89 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PROD_ID" "LED-"
-			(at 133.35 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11357,7 +11560,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-PowerSymbol:VCC")
-		(at 92.71 39.37 0)
+		(at 92.71 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11366,7 +11569,7 @@
 		(fields_autoplaced yes)
 		(uuid "fc9a9efe-0bc4-4e2a-863b-70c9a890f2a5")
 		(property "Reference" "#PWR09"
-			(at 92.71 43.18 0)
+			(at 92.71 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11375,7 +11578,7 @@
 			)
 		)
 		(property "Value" "1V8"
-			(at 92.71 35.56 0)
+			(at 92.71 38.1 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11384,7 +11587,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 39.37 0)
+			(at 92.71 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11393,7 +11596,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 39.37 0)
+			(at 92.71 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11402,7 +11605,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 92.71 45.72 0)
+			(at 92.71 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
