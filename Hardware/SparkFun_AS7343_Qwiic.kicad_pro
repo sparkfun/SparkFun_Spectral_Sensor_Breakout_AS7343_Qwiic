@@ -266,7 +266,20 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "power_pin_not_driven|1092200|1181100|a4ec67a5-4838-4fa5-94a9-3886ce474efd|00000000-0000-0000-0000-000000000000|/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a|/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1168400|1282700|343f38b8-89aa-490c-9e39-ded1b783acfe|00000000-0000-0000-0000-000000000000|/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a|/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|723900|508000|9c84786d-4bb0-45b4-bd5d-ad9746778082|00000000-0000-0000-0000-000000000000|/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a|/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
