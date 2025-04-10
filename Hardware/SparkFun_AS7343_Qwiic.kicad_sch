@@ -5093,7 +5093,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Low Pass\n7.2KHz"
+	(text "Low Pass\n7.2kHz"
 		(exclude_from_sim no)
 		(at 59.69 41.91 0)
 		(effects
@@ -5137,7 +5137,7 @@
 		)
 		(uuid "8c795be4-ddbc-450d-9114-3ed1c252ae36")
 	)
-	(text "I2C ADDRESS: 0x39"
+	(text "7-bit unshifted I^{2}C address: 0x39"
 		(exclude_from_sim no)
 		(at 73.66 26.67 0)
 		(effects
@@ -7513,7 +7513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "1V8"
+		(property "Value" "1.8V"
 			(at 135.89 113.03 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7580,7 +7580,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "1V8"
+		(property "Value" "1.8V"
 			(at 215.9 78.74 0)
 			(do_not_autoplace yes)
 			(effects
@@ -8091,7 +8091,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "1V8"
+		(property "Value" "1.8V"
 			(at 215.9 58.42 0)
 			(do_not_autoplace yes)
 			(effects
@@ -10308,7 +10308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "1V8"
+		(property "Value" "1.8V"
 			(at 41.91 45.72 0)
 			(do_not_autoplace yes)
 			(effects
@@ -11356,7 +11356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "1V8"
+		(property "Value" "1.8V"
 			(at 92.71 38.1 0)
 			(do_not_autoplace yes)
 			(effects
