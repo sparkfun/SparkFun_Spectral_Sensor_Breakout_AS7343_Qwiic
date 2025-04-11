@@ -8436,7 +8436,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "USER"
 			(at 124.46 55.88 90)
 			(effects
 				(font
