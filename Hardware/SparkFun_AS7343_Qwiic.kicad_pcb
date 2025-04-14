@@ -1003,6 +1003,7 @@
 		(path "/91c44d19-c7cc-4172-97a4-182308f26ab0")
 		(sheetname "/")
 		(sheetfile "SparkFun_AS7343_Qwiic.kicad_sch")
+		(attr smd)
 		(fp_line
 			(start 1.5 -0.7)
 			(end 1.5 -0.5)
@@ -1011,7 +1012,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "14a15ec2-76ba-477e-919a-e165c896ce04")
+			(uuid "7358ee18-ca53-4f47-b62c-8cd2a0d016fa")
 		)
 		(fp_line
 			(start -1.5 -0.7)
@@ -1021,7 +1022,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7b9f2f8b-eb89-43c4-99b2-3bf6ce67bcbc")
+			(uuid "191bcdff-be7f-4477-a97b-1a5ba859974c")
 		)
 		(fp_line
 			(start -1.5 -0.7)
@@ -1031,7 +1032,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "fb475f00-d138-4322-923e-768fe04912c6")
+			(uuid "4b79b92f-348d-43e9-ad23-5cfbe8f083da")
 		)
 		(fp_line
 			(start 2.019 -0.6825)
@@ -1041,7 +1042,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "fbeefbfa-2660-422e-aa3d-938a0cd3b239")
+			(uuid "a38ec6f0-d2bb-4104-a1cd-34f18297e6fb")
 		)
 		(fp_line
 			(start 1.5 0.5)
@@ -1051,7 +1052,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "86bad540-080b-4ad9-b042-67289fdafc72")
+			(uuid "2346466e-c867-4bec-b76f-f96ff29a1dd9")
 		)
 		(fp_line
 			(start 1.5 0.7)
@@ -1061,7 +1062,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d4497c51-04b9-4309-8464-515227d56ec9")
+			(uuid "000e8ffc-da46-4dff-9665-bc402facbe99")
 		)
 		(fp_line
 			(start -1.5 0.7)
@@ -1071,7 +1072,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "96b9412f-7907-442c-9d16-c3bfef16ad2b")
+			(uuid "84268b2f-4b5d-4fb1-94a8-ed5c406b5de8")
 		)
 		(fp_poly
 			(pts
@@ -1083,7 +1084,7 @@
 			)
 			(fill yes)
 			(layer "F.Paste")
-			(uuid "c15e45c4-bed9-41b9-bcb8-99e84e1e8ebf")
+			(uuid "a76c5ee7-210a-4f15-aee6-ce554dc66741")
 		)
 		(fp_poly
 			(pts
@@ -1095,7 +1096,7 @@
 			)
 			(fill yes)
 			(layer "F.Paste")
-			(uuid "ac7ca750-1f97-40b5-b1a9-0d774d46e013")
+			(uuid "0fa66139-5d76-437e-908b-4c618925b613")
 		)
 		(fp_poly
 			(pts
@@ -1107,7 +1108,7 @@
 			)
 			(fill yes)
 			(layer "F.Paste")
-			(uuid "1aa9148d-1722-4bdb-931e-62590828fb1f")
+			(uuid "a3f51609-99b5-455d-adeb-7b9832fe847c")
 		)
 		(fp_line
 			(start 2.159 -0.889)
@@ -1117,7 +1118,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "707e5628-ab18-4f0b-a77f-207d523d8e39")
+			(uuid "a2097c40-e76e-4dde-bf79-17fdd2520485")
 		)
 		(fp_line
 			(start -1.905 -0.889)
@@ -1127,7 +1128,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "4bbec87d-df29-4863-92e3-9d6155f539fa")
+			(uuid "0fed3cda-2588-4813-8c7c-cd7282aeca06")
 		)
 		(fp_line
 			(start 2.159 0.889)
@@ -1137,7 +1138,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "9ee922bd-603d-4343-af8d-21a48c0d4eec")
+			(uuid "9c7ecb9a-f51b-41cb-adea-04ac21af12f5")
 		)
 		(fp_line
 			(start -1.905 0.889)
@@ -1147,7 +1148,7 @@
 				(type default)
 			)
 			(layer "F.CrtYd")
-			(uuid "258fc644-8ad2-4aa9-818e-c67d190ebe21")
+			(uuid "2c1c1e68-de24-410a-b084-17ecefe0a242")
 		)
 		(fp_line
 			(start 1.45 -0.7)
@@ -1157,7 +1158,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "1f4420e9-c8e2-49fa-be9b-2951d89bfc3b")
+			(uuid "56e0c149-d67f-434f-9994-f3f71c0ef2b6")
 		)
 		(fp_line
 			(start -1.45 -0.7)
@@ -1167,7 +1168,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ae0444eb-3668-41ec-b9c1-79455cf802e7")
+			(uuid "cc4d76fb-a3c3-4d44-b4f2-f12d3151d1f0")
 		)
 		(fp_line
 			(start 1.45 0.7)
@@ -1177,7 +1178,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "a7f286ec-58d9-4252-91d7-9c4155a7fcba")
+			(uuid "44f08c95-f62f-4660-93a3-b8dba21563d7")
 		)
 		(fp_line
 			(start -1.45 0.7)
@@ -1187,7 +1188,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "dceac0b1-68d1-4a30-a3e8-69b03a721e15")
+			(uuid "e348d13b-fc0a-4e6f-a323-154a90b66a0c")
 		)
 		(fp_poly
 			(pts
@@ -1199,7 +1200,7 @@
 			)
 			(fill yes)
 			(layer "F.Fab")
-			(uuid "2ec01692-d08a-4412-bfc6-9ddb37f27154")
+			(uuid "8b6c5f62-f371-4a83-a6b8-416f1c280ca1")
 		)
 		(fp_poly
 			(pts
@@ -1211,7 +1212,7 @@
 			)
 			(fill yes)
 			(layer "F.Fab")
-			(uuid "4c1e130b-6a93-4fa4-876a-3fe60938d74d")
+			(uuid "da4d3c4d-9ca2-4658-906b-bbe83f914e28")
 		)
 		(pad "1" smd rect
 			(at 0.827 0 180)
@@ -3715,13 +3716,15 @@
 			)
 		)
 	)
-	(footprint "SparkFun-Connector:1x02"
+	(footprint "SparkFun-LED:LED_5MM"
 		(layer "F.Cu")
 		(uuid "7cc88c29-8b9e-4095-9cd4-7831bc753aa8")
-		(at 127.076 93.026 180)
-		(tags "SparkFun")
+		(at 125.806 93.026)
+		(descr "LED 5mm PTH")
+		(tags "SparkFun PTH LED 5mm Red")
 		(property "Reference" "D3"
-			(at 0 -1.397 0)
+			(at 0 -3.8 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "cd3d0259-66fd-4db8-a12c-5256fce1fa37")
 			(effects
@@ -3732,7 +3735,8 @@
 			)
 		)
 		(property "Value" "USER"
-			(at 0 1.27 0)
+			(at 0 3.8 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "acb90a79-d66d-4239-b9c5-074ea281c902")
 			(effects
@@ -3742,9 +3746,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 180)
-			(unlocked yes)
+		(property "Datasheet" "https://cdn.sparkfun.com/assets/e/c/e/c/5/COM-09590-YSL-R531R3D-D2.pdf"
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "86eb3e2b-783a-485f-b400-3b7307bfbd3d")
@@ -3755,9 +3758,8 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode PTH 0.1 inch headers"
-			(at 0 0 180)
-			(unlocked yes)
+		(property "Description" "Light emitting diode PTH 5mm diameter"
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "48f11da1-74cf-4cfa-9d9b-d489f49718a7")
@@ -3768,84 +3770,166 @@
 				)
 			)
 		)
+		(property "PROD_ID" "DIO-09529"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ed478b5-fe5a-49e2-8014-f4063db64f6d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/65b11677-fd5c-4741-837f-dceea63117bf")
 		(sheetname "/")
 		(sheetfile "SparkFun_AS7343_Qwiic.kicad_sch")
-		(attr exclude_from_bom dnp)
-		(fp_rect
-			(start -1.27 -1.27)
-			(end 3.81 1.27)
+		(attr through_hole dnp)
+		(fp_line
+			(start 2.54 1.905)
+			(end 2.54 -1.905)
 			(stroke
-				(width 0.05)
-				(type default)
+				(width 0.2032)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "aa6d6a40-34e4-469d-9a82-a2e88468086a")
+		)
+		(fp_line
+			(start 2.54 1.905)
+			(end 2.54 -1.905)
+			(stroke
+				(width 0.2032)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ab1403d7-effe-487d-a214-320744e2a393")
+		)
+		(fp_arc
+			(start -2.159 0)
+			(mid -1.526644 -1.526644)
+			(end 0 -2.159)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5541c2c7-e887-48e4-811b-53d70980214b")
+		)
+		(fp_arc
+			(start -1.651 0)
+			(mid -1.167433 -1.167433)
+			(end 0 -1.651)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "560b6b7c-8541-4a89-a6a3-1f919f743c46")
+		)
+		(fp_arc
+			(start -1.143 0)
+			(mid -0.808223 -0.808223)
+			(end 0 -1.143)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f37ade6a-9fc8-4341-bbee-67ae1787faae")
+		)
+		(fp_arc
+			(start 1.143 0)
+			(mid 0.808223 0.808223)
+			(end 0 1.143)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ce292157-cf67-4246-8ff7-a8c8ce68e4a5")
+		)
+		(fp_arc
+			(start 1.651 0)
+			(mid 1.167433 1.167433)
+			(end 0 1.651)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6f11db0f-b4d3-420d-98b9-81a716ac300e")
+		)
+		(fp_arc
+			(start 2.159 0)
+			(mid 1.526644 1.526644)
+			(end 0 2.159)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8d15bd3c-ac25-4f0d-bc4c-3df068ae17fd")
+		)
+		(fp_arc
+			(start 2.54 1.905)
+			(mid -3.175 0)
+			(end 2.54 -1.905)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5e1adb10-bb09-4a68-8c55-774a5746f466")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.54 0)
+			(stroke
+				(width 0.1524)
+				(type solid)
 			)
 			(fill no)
-			(layer "F.CrtYd")
-			(uuid "c39af78b-7535-4259-a9b9-11ab5585dbfa")
-		)
-		(fp_poly
-			(pts
-				(xy 2.286 0.254) (xy 2.794 0.254) (xy 2.794 -0.254) (xy 2.286 -0.254)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
 			(layer "F.Fab")
-			(uuid "c8376d2e-2c70-4895-a3b6-d7f2b8f37d17")
-		)
-		(fp_poly
-			(pts
-				(xy -0.254 0.254) (xy 0.254 0.254) (xy 0.254 -0.254) (xy -0.254 -0.254)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "F.Fab")
-			(uuid "efa590a1-3ff5-463d-b1d3-b0a55f99e37c")
+			(uuid "4e7314a9-c0cd-4b54-a31f-6af0ee396f57")
 		)
 		(pad "1" thru_hole circle
-			(at 0 0 270)
+			(at 1.27 0)
 			(size 1.8796 1.8796)
 			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers yes)
-			(keep_end_layers yes)
-			(zone_layer_connections)
+			(remove_unused_layers no)
 			(net 21 "Net-(D3-K)")
 			(pinfunction "K")
 			(pintype "passive")
 			(thermal_bridge_angle 0)
-			(uuid "c9e74787-aef0-4084-adc2-883d39a1c364")
+			(uuid "cd637247-f850-4a78-b1a9-9c3cc7d00ce4")
 		)
 		(pad "2" thru_hole circle
-			(at 2.54 0 270)
+			(at -1.27 0)
 			(size 1.8796 1.8796)
 			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers yes)
-			(keep_end_layers yes)
-			(zone_layer_connections)
+			(remove_unused_layers no)
 			(net 1 "3.3V")
 			(pinfunction "A")
 			(pintype "passive")
 			(thermal_bridge_angle 0)
-			(uuid "01e70fb9-7ece-4d16-a57a-bb0ea6ea8163")
+			(uuid "a2a13969-08bd-4a7c-867a-2a089e13b56f")
 		)
 		(embedded_fonts no)
-		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Connector/PRPC040SAAN-RC.STEP"
+		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/LED/LED_PTH_5mm_Red.step"
 			(offset
-				(xyz 0 -0.1 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz 0 0 0)
 			)
 		)
 	)
