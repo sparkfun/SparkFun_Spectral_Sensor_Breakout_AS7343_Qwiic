@@ -284,7 +284,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 0 1.43 90)
+			(at 2.3125 -0.145 90)
 			(layer "F.Fab")
 			(uuid "545ba38a-36a5-41b2-a5eb-1e54ba5a3524")
 			(effects
@@ -514,7 +514,7 @@
 			)
 		)
 		(property "Value" "1.0uF"
-			(at 0 1.43 90)
+			(at 0.005 -0.95 90)
 			(layer "F.Fab")
 			(uuid "36ba8b22-1ff3-4ec1-9388-1499f02a8ced")
 			(effects
@@ -745,7 +745,7 @@
 			)
 		)
 		(property "Value" "22"
-			(at 0 1.43 0)
+			(at 0.0275 1 0)
 			(layer "F.Fab")
 			(uuid "bbbe343d-93c4-4ea3-b174-ad76c45ab8c3")
 			(effects
@@ -950,7 +950,7 @@
 			)
 		)
 		(property "Value" "White"
-			(at -3.937 1.651 90)
+			(at -0.925 -1 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "40d2c0ab-f99f-449e-b5d6-dd1fe7f1a45e")
@@ -1267,7 +1267,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 0 1.43 90)
+			(at 0 -0.995 90)
 			(layer "F.Fab")
 			(uuid "bfb63ead-8895-4245-a412-fe7a0a6430dd")
 			(effects
@@ -1496,7 +1496,7 @@
 			)
 		)
 		(property "Value" "Red"
-			(at 0 1.43 0)
+			(at 2.235 0.02 0)
 			(layer "F.Fab")
 			(uuid "c7a4d019-c015-45fc-b628-9c48245147ad")
 			(effects
@@ -2028,7 +2028,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.43 0)
+			(at 2.0225 0.0275 0)
 			(layer "F.Fab")
 			(uuid "aeae06a2-c2c0-487e-8e0d-23578831754a")
 			(effects
@@ -2325,7 +2325,7 @@
 			)
 		)
 		(property "Value" "RT9080-1.8V"
-			(at 0 2.3 0)
+			(at 0.175 2.2875 0)
 			(layer "F.Fab")
 			(uuid "003656b3-0082-4397-a95b-e4837942202f")
 			(effects
@@ -3090,7 +3090,7 @@
 			)
 		)
 		(property "Value" "AS7343"
-			(at 0.127 2.237 90)
+			(at -1.75 0 180)
 			(layer "F.Fab")
 			(uuid "87a1ae0c-1a14-4230-892f-142b6fe47f68")
 			(effects
@@ -3735,7 +3735,7 @@
 			)
 		)
 		(property "Value" "USER"
-			(at 0 3.8 0)
+			(at 3.11 0.13 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "acb90a79-d66d-4239-b9c5-074ea281c902")
@@ -4351,7 +4351,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 0 1.43 270)
+			(at 2.185 -0.0725 270)
 			(layer "F.Fab")
 			(uuid "a9a5f642-5f89-45a5-a5db-dbdf6f748237")
 			(effects
@@ -4709,7 +4709,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 1.43 90)
+			(at 2.4125 0 90)
 			(layer "F.Fab")
 			(uuid "d7bfc497-44a6-4de2-83db-d9fb1cfac148")
 			(effects
@@ -5062,7 +5062,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 0 1.43 0)
+			(at -2.21 -0.025 0)
 			(layer "F.Fab")
 			(uuid "db34ac9b-abed-4d76-8cbc-d037ca7384b1")
 			(effects
@@ -5267,7 +5267,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 0 1.43 90)
+			(at -2.26 -0.01 90)
 			(layer "F.Fab")
 			(uuid "640f2ebc-93f9-43ae-85e5-893bcc954172")
 			(effects
@@ -5999,7 +5999,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 1.43 90)
+			(at 2.3375 -0.1 90)
 			(layer "F.Fab")
 			(uuid "11682882-dd07-45dc-8bee-173d6c17720b")
 			(effects
@@ -6679,7 +6679,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 0 1.43 90)
+			(at -2.21 -0.0075 90)
 			(layer "F.Fab")
 			(uuid "7082d2ee-03dc-423c-b67a-eb203f80cc91")
 			(effects
@@ -6883,7 +6883,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 0 1.43 90)
+			(at 2.3625 -0.08 90)
 			(layer "F.Fab")
 			(uuid "dc2bc5a7-ddb1-4916-ae0e-cbff1bb7f33e")
 			(effects
@@ -7104,7 +7104,7 @@
 		(property "Reference" "R7"
 			(at 0 -1.43 90)
 			(layer "F.Fab")
-			(uuid "96edf5ca-63d4-4d31-a2c3-a323a6e774da")
+			(uuid "e6c022f5-e76f-4fa5-a0c7-7072b39f1926")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -7114,9 +7114,9 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 0 1.43 90)
+			(at -2.16 0.01 90)
 			(layer "F.Fab")
-			(uuid "f8206320-c780-4dc0-aa48-366c61320606")
+			(uuid "9f6d753e-6f5b-4e77-90d6-0ae346f18aca")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -7130,7 +7130,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ab29bd20-89ff-407c-966e-e71c9b0d7ebe")
+			(uuid "373e07f3-fda8-40a4-9db3-cce87c146b7d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7143,7 +7143,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "35000460-ffb9-4929-aee2-ad8136485b32")
+			(uuid "a84c9a13-f9fc-46d7-865f-9b2c678cc3ba")
 			(effects
 				(font
 					(size 1.27 1.27)
