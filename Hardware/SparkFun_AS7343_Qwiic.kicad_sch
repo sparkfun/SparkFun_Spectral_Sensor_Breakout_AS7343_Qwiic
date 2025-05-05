@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "SparkFun Spectral Sensor Breakout AS7353 Qwiic")
-		(date "2025-04-22")
-		(rev "v02")
+		(date "2025-05-05")
+		(rev "v10")
 		(comment 1 "Based off the AS726X by N. Seidle")
 		(comment 2 "Designed by: P. Lewis")
 	)
