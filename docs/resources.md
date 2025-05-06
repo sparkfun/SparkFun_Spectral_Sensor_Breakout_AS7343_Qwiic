@@ -1,0 +1,10 @@
+Refer to the resources below for more information on the SparkFun Spectral Sensor Breakout - AS7343 (Qwiic)
+
+* [Schematic]()
+* [KiCad Files]()
+* [Board Dimensions]()
+* [3D Model]()
+* [Datasheet]() (AS7343)
+* [SparkFun AS7343 Arduino Library]()
+* [SparkFun AS7343 MicroPython Driver]()
+* [GitHub Repository]()

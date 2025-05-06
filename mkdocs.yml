@@ -280,6 +280,8 @@ nav:
     - Software:
       - Arduino Library Setup: arduino_setup.md
       - Arduino Example: arduino_examples.md
+      - MicroPython Driver Setup: micropython_setup.md
+      - MicroPython Examples: micropython_examples.md
     - Resources: resources.md
     - Support:
       - Troubleshooting: troubleshooting.md
