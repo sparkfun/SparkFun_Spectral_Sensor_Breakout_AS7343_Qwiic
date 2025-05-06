@@ -273,8 +273,8 @@ extra_javascript:
 nav:
   - Hookup Guide:
     - Introduction: introduction.md
-    - Quick Start: quickstart.md
-    - Hardware: 
+    - Quick Start: quickstart.md 
+    - Hardware:  
       - Hardware Overview: hardware_overview.md
       - Hardware Assembly: hardware_assembly.md
     - Software:
