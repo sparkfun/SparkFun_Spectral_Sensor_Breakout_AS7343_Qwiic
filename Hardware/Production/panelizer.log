@@ -1,0 +1,14 @@
+2025-05-07 13:18:36,795 - panelizer_logger - INFO - Running Panelizer
+2025-05-07 13:18:36,799 - panelizer_logger - INFO - ['--panelx', '127.000000', '--panely', '177.800000', '--smaller', '--vscorelayer', 'User.Comments', '--vscoretextlayer', 'User.Comments', '--gapx', '0.000000', '--gapy', '0.000000', '--hrail', '6.35', '--vrail', '6.35', '--fiducialpos', '0.25', '--fiducialstb']
+2025-05-07 13:18:36,800 - panelizer_logger - INFO - PANELIZER START: 2025-05-07T13:18:36.800871
+2025-05-07 13:18:41,465 - panelizer_logger - INFO - 
+START: 2025-05-07T13:18:36.800871
+Board saved by user.
+Zones filled by Panelizer.
+
+Board: C:/Users/pete.lewis/Documents/GitHub/SparkFun_Spectral_Sensor_Breakout_AS7343_Qwiic/Hardware\Production\SparkFun_AS7343_Qwiic_panelized.kicad_pcb
+Board dimensions: 25.40 x 25.40 mm.
+You can fit 4 x 6 boards on the panel.
+Zones refilled by Panelizer.
+
+2025-05-07 13:18:42,780 - panelizer_logger - INFO - Panelizer complete

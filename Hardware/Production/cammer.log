@@ -1,0 +1,19 @@
+2025-05-07 13:20:34,263 - cammer_logger - INFO - Running CAMmer
+2025-05-07 13:20:34,265 - cammer_logger - INFO - ['-l', 'F.Cu,B.Cu,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,F.Mask,B.Mask', '-e', 'Edge.Cuts,User.Comments']
+2025-05-07 13:20:34,266 - cammer_logger - INFO - CAMMER START: 2025-05-07T13:20:34.266188
+2025-05-07 13:20:37,467 - cammer_logger - INFO - 
+START: 2025-05-07T13:20:34.266188
+Board saved by user.
+Zones filled by CAMmer.
+Renaming C:/Users/pete.lewis/Documents/GitHub/SparkFun_Spectral_Sensor_Breakout_AS7343_Qwiic/Hardware\Production\SparkFun_AS7343_Qwiic_panelized-F_Cu.gbr to C:/Users/pete.lewis/Documents/GitHub/SparkFun_Spectral_Sensor_Breakout_AS7343_Qwiic/Hardware\Production\SparkFun_AS7343_Qwiic_panelized.GTL
+Renaming C:/Users/pete.lewis/Documents/GitHub/SparkFun_Spectral_Sensor_Breakout_AS7343_Qwiic/Hardware\Production\SparkFun_AS7343_Qwiic_panelized-B_Cu.gbr to C:/Users/pete.lewis/Documents/GitHub/SparkFun_Spectral_Sensor_Breakout_AS7343_Qwiic/Hardware\Production\SparkFun_AS7343_Qwiic_panelized.GBL
+Renaming C:/Users/pete.lewis/Documents/GitHub/SparkFun_Spectral_Sensor_Breakout_AS7343_Qwiic/Hardware\Production\SparkFun_AS7343_Qwiic_panelized-F_Paste.gbr to C:/Users/pete.lewis/Documents/GitHub/SparkFun_Spectral_Sensor_Breakout_AS7343_Qwiic/Hardware\Production\SparkFun_AS7343_Qwiic_panelized.GTP
+Renaming C:/Users/pete.lewis/Documents/GitHub/SparkFun_Spectral_Sensor_Breakout_AS7343_Qwiic/Hardware\Production\SparkFun_AS7343_Qwiic_panelized-B_Paste.gbr to C:/Users/pete.lewis/Documents/GitHub/SparkFun_Spectral_Sensor_Breakout_AS7343_Qwiic/Hardware\Production\SparkFun_AS7343_Qwiic_panelized.GBP
+Renaming C:/Users/pete.lewis/Documents/GitHub/SparkFun_Spectral_Sensor_Breakout_AS7343_Qwiic/Hardware\Production\SparkFun_AS7343_Qwiic_panelized-F_Silkscreen.gbr to C:/Users/pete.lewis/Documents/GitHub/SparkFun_Spectral_Sensor_Breakout_AS7343_Qwiic/Hardware\Production\SparkFun_AS7343_Qwiic_panelized.GTO
+Renaming C:/Users/pete.lewis/Documents/GitHub/SparkFun_Spectral_Sensor_Breakout_AS7343_Qwiic/Hardware\Production\SparkFun_AS7343_Qwiic_panelized-B_Silkscreen.gbr to C:/Users/pete.lewis/Documents/GitHub/SparkFun_Spectral_Sensor_Breakout_AS7343_Qwiic/Hardware\Production\SparkFun_AS7343_Qwiic_panelized.GBO
+Renaming C:/Users/pete.lewis/Documents/GitHub/SparkFun_Spectral_Sensor_Breakout_AS7343_Qwiic/Hardware\Production\SparkFun_AS7343_Qwiic_panelized-F_Mask.gbr to C:/Users/pete.lewis/Documents/GitHub/SparkFun_Spectral_Sensor_Breakout_AS7343_Qwiic/Hardware\Production\SparkFun_AS7343_Qwiic_panelized.GTS
+Renaming C:/Users/pete.lewis/Documents/GitHub/SparkFun_Spectral_Sensor_Breakout_AS7343_Qwiic/Hardware\Production\SparkFun_AS7343_Qwiic_panelized-B_Mask.gbr to C:/Users/pete.lewis/Documents/GitHub/SparkFun_Spectral_Sensor_Breakout_AS7343_Qwiic/Hardware\Production\SparkFun_AS7343_Qwiic_panelized.GBS
+Renaming C:/Users/pete.lewis/Documents/GitHub/SparkFun_Spectral_Sensor_Breakout_AS7343_Qwiic/Hardware\Production\SparkFun_AS7343_Qwiic_panelized-Edge_Cuts.gbr to C:/Users/pete.lewis/Documents/GitHub/SparkFun_Spectral_Sensor_Breakout_AS7343_Qwiic/Hardware\Production\SparkFun_AS7343_Qwiic_panelized.GKO
+Drill report: C:\Users\pete.lewis\Documents\GitHub\SparkFun_Spectral_Sensor_Breakout_AS7343_Qwiic\Hardware\Production\drill_report.rpt
+
+2025-05-07 13:20:38,884 - cammer_logger - INFO - CAMmer complete

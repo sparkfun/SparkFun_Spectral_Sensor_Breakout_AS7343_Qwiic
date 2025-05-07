@@ -1,0 +1,11 @@
+Ordering Instructions:
+Panel dimensions: 116.80 x 168.60 mm.
+Material: TG135
+Solder Mask: Red
+Silkscreen Color: White
+Layers: 2
+Finish: Lead-Free HASL
+Thickness: 1.6mm
+Outer Copper Weight: 1oz
+Minimum track width: 0.20mm (8.00mil)
+Minimum via drill: 0.30mm (11.81mil)

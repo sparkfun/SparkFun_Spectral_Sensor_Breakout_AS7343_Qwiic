@@ -1,0 +1,24 @@
+Drill report for SparkFun_AS7343_Qwiic_panelized.kicad_pcb
+Created on 2025-05-07T13:20:37-0600
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L1 :  B.Cu                      back
+
+
+Drill file 'SparkFun_AS7343_Qwiic_panelized.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.300mm  0.0118"  (1848 holes)
+    T2  1.016mm  0.0400"  (192 holes)
+
+    Total plated holes count 2040
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+    T3  3.100mm  0.1220"  (96 holes)
+
+    Total unplated holes count 96
