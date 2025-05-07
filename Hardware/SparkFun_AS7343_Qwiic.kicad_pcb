@@ -2663,7 +2663,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+		(property "Datasheet" "https://cdn.sparkfun.com/assets/parts/1/2/2/8/9/Qwiic_Connector_Datasheet.pdf"
 			(at 0 3.25 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2676,7 +2676,7 @@
 				)
 			)
 		)
-		(property "Description" "4 pin JST 1mm polarized connector for I2C"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2685,19 +2685,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PROD_ID" "CONN-13694"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a178d8eb-46ef-4477-b7b0-40a9a3099008")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2715,7 +2702,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7ce78485-43e6-4952-8448-48f002888e62")
+			(uuid "ac6cf2f9-a35b-4f6c-9d39-da6ea930cc73")
 		)
 		(fp_line
 			(start 2.25 0.35)
@@ -2725,7 +2712,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "99c19956-fa5d-47f0-b9c9-818909ee36dc")
+			(uuid "72eda143-bb6e-47ec-a14f-ba33b9356dfc")
 		)
 		(fp_line
 			(start -3 0.35)
@@ -2735,7 +2722,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c340fcc8-01fa-47dd-a90b-037a4da3eae2")
+			(uuid "16abce5e-1fcb-4407-8be8-b8135dfff6cd")
 		)
 		(fp_line
 			(start -3 2)
@@ -2745,7 +2732,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "3d229056-aa1d-4f52-8cc6-c559316a47ba")
+			(uuid "ec5eae31-a477-408e-a8df-c7331e44ec19")
 		)
 		(fp_line
 			(start -1.5 4.6)
@@ -2755,12 +2742,12 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a0f424b4-2b53-42a8-8d9f-f021ea362bf5")
+			(uuid "7f988727-9adf-4bca-9fff-8b286c0f5851")
 		)
 		(fp_poly
 			(pts
-				(xy -3.55 4.85) (xy -3.55 2.5) (xy -3.25 2.5) (xy -3.25 0.1) (xy -1.95 0.1) (xy -1.95 -0.8) (xy 1.95 -0.8)
-				(xy 1.95 0.1) (xy 3.25 0.1) (xy 3.25 2.5) (xy 3.55 2.5) (xy 3.55 4.847)
+				(xy -3.55 4.95) (xy -3.55 2.6) (xy -3.25 2.6) (xy -3.25 0.2) (xy -1.95 0.2) (xy -1.95 -0.8) (xy 1.95 -0.8)
+				(xy 1.95 0.2) (xy 3.25 0.2) (xy 3.25 2.6) (xy 3.55 2.6) (xy 3.55 4.95)
 			)
 			(stroke
 				(width 0.05)
@@ -2768,7 +2755,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "36facb7d-e59f-4f09-9143-e554aa28efeb")
+			(uuid "e64167e7-e56f-4b4c-9ee5-987ec8671d26")
 		)
 		(pad "1" smd rect
 			(at -1.5 0 90)
@@ -3524,7 +3511,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+		(property "Datasheet" "https://cdn.sparkfun.com/assets/parts/1/2/2/8/9/Qwiic_Connector_Datasheet.pdf"
 			(at 0 3.25 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3537,7 +3524,7 @@
 				)
 			)
 		)
-		(property "Description" "4 pin JST 1mm polarized connector for I2C"
+		(property "Description" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3546,19 +3533,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PROD_ID" "CONN-13694"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f5f80f3c-1584-4efc-8749-34c0c9df6675")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3576,7 +3550,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "0eb61192-82c0-4c26-b756-847e35f6386f")
+			(uuid "55a865f7-cc17-4df4-9c22-06bf3e0de4d7")
 		)
 		(fp_line
 			(start -3 2)
@@ -3586,7 +3560,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "e604f8e1-96a5-49ec-b838-f0c6396e73ed")
+			(uuid "0db049ab-1272-4cff-b16e-d1a0eaaf3579")
 		)
 		(fp_line
 			(start -3 0.35)
@@ -3596,7 +3570,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4b2be246-c69b-431c-b922-21def7db243e")
+			(uuid "a8a831f8-bc9d-4015-a7fe-9e28c544cf03")
 		)
 		(fp_line
 			(start 2.25 0.35)
@@ -3606,7 +3580,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "307748d0-bcfe-40f6-b6c7-3bab4df770f3")
+			(uuid "fe827cd9-9547-436c-89a7-7f033a82197b")
 		)
 		(fp_line
 			(start 3 0.35)
@@ -3616,12 +3590,12 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "274fe4a8-dad7-4261-8418-6a9718e1f618")
+			(uuid "e457cfa0-7c27-454f-958f-9bb66cf40d25")
 		)
 		(fp_poly
 			(pts
-				(xy -3.55 4.85) (xy -3.55 2.5) (xy -3.25 2.5) (xy -3.25 0.1) (xy -1.95 0.1) (xy -1.95 -0.8) (xy 1.95 -0.8)
-				(xy 1.95 0.1) (xy 3.25 0.1) (xy 3.25 2.5) (xy 3.55 2.5) (xy 3.55 4.847)
+				(xy -3.55 4.95) (xy -3.55 2.6) (xy -3.25 2.6) (xy -3.25 0.2) (xy -1.95 0.2) (xy -1.95 -0.8) (xy 1.95 -0.8)
+				(xy 1.95 0.2) (xy 3.25 0.2) (xy 3.25 2.6) (xy 3.55 2.6) (xy 3.55 4.95)
 			)
 			(stroke
 				(width 0.05)
@@ -3629,7 +3603,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "940729c4-d182-42b2-a7bc-d8a06cee37c2")
+			(uuid "978fdcff-630f-4335-84bd-4082c54c65a9")
 		)
 		(pad "1" smd rect
 			(at -1.5 0 270)
@@ -3713,223 +3687,6 @@
 			)
 			(rotate
 				(xyz -90 0 0)
-			)
-		)
-	)
-	(footprint "SparkFun-LED:LED_5MM"
-		(layer "F.Cu")
-		(uuid "7cc88c29-8b9e-4095-9cd4-7831bc753aa8")
-		(at 125.806 93.026)
-		(descr "LED 5mm PTH")
-		(tags "SparkFun PTH LED 5mm Red")
-		(property "Reference" "D3"
-			(at 0 -3.8 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "cd3d0259-66fd-4db8-a12c-5256fce1fa37")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Value" "USER"
-			(at 3.11 0.13 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "acb90a79-d66d-4239-b9c5-074ea281c902")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Datasheet" "https://cdn.sparkfun.com/assets/e/c/e/c/5/COM-09590-YSL-R531R3D-D2.pdf"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "86eb3e2b-783a-485f-b400-3b7307bfbd3d")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode PTH 5mm diameter"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "48f11da1-74cf-4cfa-9d9b-d489f49718a7")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "PROD_ID" "DIO-09529"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7ed478b5-fe5a-49e2-8014-f4063db64f6d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(path "/65b11677-fd5c-4741-837f-dceea63117bf")
-		(sheetname "/")
-		(sheetfile "SparkFun_AS7343_Qwiic.kicad_sch")
-		(attr through_hole dnp)
-		(fp_line
-			(start 2.54 1.905)
-			(end 2.54 -1.905)
-			(stroke
-				(width 0.2032)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "aa6d6a40-34e4-469d-9a82-a2e88468086a")
-		)
-		(fp_line
-			(start 2.54 1.905)
-			(end 2.54 -1.905)
-			(stroke
-				(width 0.2032)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "ab1403d7-effe-487d-a214-320744e2a393")
-		)
-		(fp_arc
-			(start -2.159 0)
-			(mid -1.526644 -1.526644)
-			(end 0 -2.159)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "5541c2c7-e887-48e4-811b-53d70980214b")
-		)
-		(fp_arc
-			(start -1.651 0)
-			(mid -1.167433 -1.167433)
-			(end 0 -1.651)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "560b6b7c-8541-4a89-a6a3-1f919f743c46")
-		)
-		(fp_arc
-			(start -1.143 0)
-			(mid -0.808223 -0.808223)
-			(end 0 -1.143)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "f37ade6a-9fc8-4341-bbee-67ae1787faae")
-		)
-		(fp_arc
-			(start 1.143 0)
-			(mid 0.808223 0.808223)
-			(end 0 1.143)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "ce292157-cf67-4246-8ff7-a8c8ce68e4a5")
-		)
-		(fp_arc
-			(start 1.651 0)
-			(mid 1.167433 1.167433)
-			(end 0 1.651)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "6f11db0f-b4d3-420d-98b9-81a716ac300e")
-		)
-		(fp_arc
-			(start 2.159 0)
-			(mid 1.526644 1.526644)
-			(end 0 2.159)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "8d15bd3c-ac25-4f0d-bc4c-3df068ae17fd")
-		)
-		(fp_arc
-			(start 2.54 1.905)
-			(mid -3.175 0)
-			(end 2.54 -1.905)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "5e1adb10-bb09-4a68-8c55-774a5746f466")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 2.54 0)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "4e7314a9-c0cd-4b54-a31f-6af0ee396f57")
-		)
-		(pad "1" thru_hole circle
-			(at 1.27 0)
-			(size 1.8796 1.8796)
-			(drill 1.016)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 21 "Net-(D3-K)")
-			(pinfunction "K")
-			(pintype "passive")
-			(thermal_bridge_angle 0)
-			(uuid "cd637247-f850-4a78-b1a9-9c3cc7d00ce4")
-		)
-		(pad "2" thru_hole circle
-			(at -1.27 0)
-			(size 1.8796 1.8796)
-			(drill 1.016)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 1 "3.3V")
-			(pinfunction "A")
-			(pintype "passive")
-			(thermal_bridge_angle 0)
-			(uuid "a2a13969-08bd-4a7c-867a-2a089e13b56f")
-		)
-		(embedded_fonts no)
-		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/LED/LED_PTH_5mm_Red.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
 			)
 		)
 	)
@@ -6329,6 +6086,223 @@
 			(hide yes)
 			(offset
 				(xyz 0 0 -2.8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "SparkFun-LED:LED_5mm_PTH_Red_NoSilk"
+		(layer "F.Cu")
+		(uuid "d7a0473b-e227-4f71-8b7e-899c8c59f5e8")
+		(at 125.806 93.026)
+		(descr "LED 5mm PTH")
+		(tags "SparkFun PTH LED 5mm Red")
+		(property "Reference" "D3"
+			(at 3.175 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "6ba51ece-d63d-4570-9a91-36b595fc00a7")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "USER"
+			(at 3.81 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "da8fba8a-a226-410a-90e0-efa1e8ca033e")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/assets/e/c/e/c/5/COM-09590-YSL-R531R3D-D2.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bdbc6b8d-a92a-42ca-82ac-922cdf3f89c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode PTH 5mm diameter"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "556f4b51-3a8e-4aa8-9479-1a89df02a252")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PROD_ID" "DIO-09529"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b605913-222c-49f7-a1c2-c092bfa6eb75")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
+		(path "/dc44f84a-7fd0-4ea8-b874-450d48164602")
+		(sheetname "/")
+		(sheetfile "SparkFun_AS7343_Qwiic.kicad_sch")
+		(attr through_hole dnp)
+		(fp_line
+			(start 2.54 1.905)
+			(end 2.54 -1.905)
+			(stroke
+				(width 0.2032)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "19aac8a5-729a-4502-8138-c4c2c2953592")
+		)
+		(fp_line
+			(start 2.54 1.905)
+			(end 2.54 -1.905)
+			(stroke
+				(width 0.2032)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c1e5579b-822a-4d80-b030-93f5173a2c66")
+		)
+		(fp_arc
+			(start -2.159 0)
+			(mid -1.526644 -1.526644)
+			(end 0 -2.159)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e7e21c33-fffe-4a5b-a520-788a69d463a2")
+		)
+		(fp_arc
+			(start -1.651 0)
+			(mid -1.167433 -1.167433)
+			(end 0 -1.651)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "eef69a64-7fea-436f-b72f-ec4d3cd6535f")
+		)
+		(fp_arc
+			(start -1.143 0)
+			(mid -0.808223 -0.808223)
+			(end 0 -1.143)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c48c11a0-af17-466b-bda4-e51e50af50f8")
+		)
+		(fp_arc
+			(start 1.143 0)
+			(mid 0.808223 0.808223)
+			(end 0 1.143)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9ec4304c-8127-42f4-8a24-7c8776253c1b")
+		)
+		(fp_arc
+			(start 1.651 0)
+			(mid 1.167433 1.167433)
+			(end 0 1.651)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "25e5ef27-9bc5-46c8-8aa9-b9cc41fe89e1")
+		)
+		(fp_arc
+			(start 2.159 0)
+			(mid 1.526644 1.526644)
+			(end 0 2.159)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "95ba9712-cbe7-429f-ac58-38e9f00043df")
+		)
+		(fp_arc
+			(start 2.54 1.905)
+			(mid -3.175 0)
+			(end 2.54 -1.905)
+			(stroke
+				(width 0.254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "dbc45885-dfb3-4066-95b7-6a1382daf0c3")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.54 0)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "c4d43077-3df0-4631-9f51-49efce4020e5")
+		)
+		(pad "1" thru_hole circle
+			(at 1.27 0)
+			(size 1.8796 1.8796)
+			(drill 1.016)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 21 "Net-(D3-K)")
+			(pinfunction "K")
+			(pintype "passive")
+			(thermal_bridge_angle 0)
+			(uuid "692705d0-1086-4a1c-92e4-8a09c62a23fe")
+		)
+		(pad "2" thru_hole circle
+			(at -1.27 0)
+			(size 1.8796 1.8796)
+			(drill 1.016)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "3.3V")
+			(pinfunction "A")
+			(pintype "passive")
+			(thermal_bridge_angle 0)
+			(uuid "71b5f48e-6731-4e49-9a27-0ba34c8abf4e")
+		)
+		(embedded_fonts no)
+		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/LED/LED_PTH_5mm_Red.step"
+			(offset
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -12299,7 +12273,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Solder Mask: Black"
+	(gr_text "Solder Mask: Red"
 		(at 198.354 145.232 0)
 		(layer "Eco1.User")
 		(uuid "8c4d7694-f989-420c-a67a-6950781bec68")

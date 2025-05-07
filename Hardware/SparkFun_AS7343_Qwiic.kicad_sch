@@ -3800,7 +3800,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SparkFun-LED:LED_Red_5mm_PTH"
+		(symbol "SparkFun-LED:LED_Red_5mm_PTH_NoSilk"
 			(pin_numbers
 				(hide yes)
 			)
@@ -3827,7 +3827,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SparkFun-LED:LED_5MM"
+			(property "Footprint" "SparkFun-LED:LED_5mm_PTH_Red_NoSilk"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -3881,7 +3881,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_Red_5mm_PTH_0_1"
+			(symbol "LED_Red_5mm_PTH_NoSilk_0_1"
 				(polyline
 					(pts
 						(xy -0.762 -1.016) (xy -0.762 1.016)
@@ -3943,7 +3943,7 @@
 					)
 				)
 			)
-			(symbol "LED_Red_5mm_PTH_1_1"
+			(symbol "LED_Red_5mm_PTH_NoSilk_1_1"
 				(pin passive line
 					(at -2.54 0 0)
 					(length 1.778)
@@ -8486,82 +8486,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-LED:LED_Red_5mm_PTH")
-		(at 123.19 54.61 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "65b11677-fd5c-4741-837f-dceea63117bf")
-		(property "Reference" "D3"
-			(at 127 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USER"
-			(at 128.27 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SparkFun-LED:LED_5MM"
-			(at 128.27 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn.sparkfun.com/assets/e/c/e/c/5/COM-09590-YSL-R531R3D-D2.pdf"
-			(at 133.35 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode PTH 5mm diameter"
-			(at 135.89 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PROD_ID" "DIO-09529"
-			(at 130.81 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eb614d4b-dbd6-4bcb-b638-8a66ee08973f")
-		)
-		(pin "2"
-			(uuid "af7a4422-b434-4fd6-b4d2-679798656dea")
-		)
-		(instances
-			(project ""
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SparkFun-Hardware:Standoff")
 		(at 250.19 175.26 0)
 		(unit 1)
@@ -10621,6 +10545,85 @@
 			(project "SparkFun_AS7343_Qwiic"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-LED:LED_Red_5mm_PTH_NoSilk")
+		(at 123.19 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "dc44f84a-7fd0-4ea8-b874-450d48164602")
+		(property "Reference" "D3"
+			(at 125.73 53.2764 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "USER"
+			(at 125.73 55.8164 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SparkFun-LED:LED_5mm_PTH_Red_NoSilk"
+			(at 128.27 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/assets/e/c/e/c/5/COM-09590-YSL-R531R3D-D2.pdf"
+			(at 133.35 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode PTH 5mm diameter"
+			(at 135.89 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "DIO-09529"
+			(at 130.81 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb635522-e30a-4106-b8fc-ab075a743bfc")
+		)
+		(pin "2"
+			(uuid "4b504405-2b89-496b-8e70-a088483d5375")
+		)
+		(instances
+			(project ""
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "D3")
 					(unit 1)
 				)
 			)
