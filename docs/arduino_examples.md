@@ -15,11 +15,19 @@ In order to get data from all channels, the AS7343 takes measurements in three c
 
 The third example shows how to set up the AS7343 with specific Spectral Engines Gain Settigns (aka AGAIN) and cycle through the gain settings using serial commands. Open the example in Arduino by navigating to **File** > **Examples** > **SparkFun AS7343 Arduino Library** > **Example_03_Gain**. If necessary, select your board and port and click the "Upload" button. Open the serial terminal with the baud set to **115200** after the code finishes uploading. 
 
-The example accepts serial inputs of "+" and "-" to step up and down, respectively, through the available gain settings and prints out the value of the gain each time it's updated.
+The example accepts serial inputs of "+" and "-" to step up and down, respectively, through the available gain settings and prints out the value of the gain each time it's updated. The code also prints out spectral readings from all channels every 1 second so'll want to pay close attention to the serial monitor when adjusting the gain value to see the returned serial data like the screenshot below shows:
+
+[![Screenshot of Example 3 - Gain serial printout.](./assets/img/AS7343_Arduino_Example3.jpg)](./assets/img/AS7343_Arduino_Example3.jpg "Click to enlarge")
 
 ## Example 4 - Interrupt
 
-The fourth example demonstrates how to set up the AS7343's interrupt pin to fire when values from a specific channel exceed a specified limit. The example defaults to watch channel FZ (450nm aka Blue) and trigger the interrupt when it reports values over 10 counts. 
+The fourth example demonstrates how to set up the AS7343's interrupt pin to fire when values from a specific channel exceed a specified limit. The example defaults to watch channel FZ (450nm aka Blue) and trigger the interrupt when it reports values over 10 counts. The example defaults to use `D4` for the interrupt pin so depending on whether or not your board supports external interrupts adjust this line if needed:
+
+```c++
+#define INT_HW_READ_PIN 4 // Pin to read the interrupt pin from the AS7343
+```
+
+Not sure which pins on your development board support the `attachInterrupt()` function in Arduino? Take a look at [this page](https://docs.arduino.cc/language-reference/en/functions/external-interrupts/attachInterrupt/) for a more thorough reference on the function along with available interrupt pins for common Arduino development boards.
 
 ## Example 5 - Flicker Detection
 
