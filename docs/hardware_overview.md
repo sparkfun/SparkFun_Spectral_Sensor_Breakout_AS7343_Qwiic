@@ -1,4 +1,8 @@
-Let's take a closer look at the AS7343 and other hardware on the SparkFun Spectral Sensor Breakout - AS7343.
+Let's take a closer look at the AS7343 and other hardware on the SparkFun Spectral Sensor Breakout - AS7343. The image below highlights the major components on this Qwiic breakout board:
+
+<figure markdown>
+[![Annotated photo of AS7343 Breakout](./assets/img/AS7343_Annotated.jpg){ width="600"}](./assets/img/AS7343_Annotated.jpg "Click to enlarge")
+</figure>
 
 ## AS7343 Spectral Sensor
 

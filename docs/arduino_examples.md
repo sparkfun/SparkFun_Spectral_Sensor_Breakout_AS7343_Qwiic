@@ -4,6 +4,9 @@ Let's take a closer look at the examples included in the SparkFun AS7343 Arduino
 
 The first example sets up the AS7343 to operate with default settings and outputs data from just four channels (Red, Green, Blue and NIR). Open the example in Arduino by navigating to **File** > **Examples** > **SparkFun AS7343 Arduino Library** > **Example_01_BasicReadings**. Next, select your board (RedBoard IoT - ESP32) and Port and click the "Upload" button. After the code finishes compiling and uploading, open the [serial monitor]() with the baud set to **115200** and you should see readings for red, blue, green and NIR print out like the screenshot below shows:
 
+<figure markdown>
+[![Screenshot of example 1 serial print](./assets/img/AS7343_Arduino_Example1.jpg){ width="600"}](./assets/img/AS7343_Arduino_Example1.jpg "Click to enlarge")
+</figure>
 
 ## Example 2 - All Channels
 
@@ -17,7 +20,9 @@ The third example shows how to set up the AS7343 with specific Spectral Engines 
 
 The example accepts serial inputs of "+" and "-" to step up and down, respectively, through the available gain settings and prints out the value of the gain each time it's updated. The code also prints out spectral readings from all channels every 1 second so'll want to pay close attention to the serial monitor when adjusting the gain value to see the returned serial data like the screenshot below shows:
 
-[![Screenshot of Example 3 - Gain serial printout.](./assets/img/AS7343_Arduino_Example3.jpg)](./assets/img/AS7343_Arduino_Example3.jpg "Click to enlarge")
+<figure markdown>
+[![Screenshot of Example 3 - Gain serial printout.](./assets/img/AS7343_Arduino_Example3.jpg){ width="600"}](./assets/img/AS7343_Arduino_Example3.jpg "Click to enlarge")
+</figure>
 
 ## Example 4 - Interrupt
 
@@ -39,4 +44,8 @@ Example six shows how to put the AS734 in and out of Sleep Mode to take intermit
 
 ## Example 7 - Web Terminal Bar Graph
 
-The seventh example takes data from all of the AS7343's channels (visible spectrum, NIR and clear) and formats it in a way to work with the SparkFun Online Serial Terminal to display the readings in a colorful bar graph. 
+The seventh example takes data from all of the AS7343's channels (visible spectrum, NIR and clear) and formats it in a way to work with the SparkFun Online Serial Terminal to display the readings in a colorful bar graph. After uploading the code, head to the [SparkFun Web Serial Plotter]() site, select the COM port with the baud set to <b>115200</b> and click connect. You should start to see serial data print out in the top window along with a bar graph matching the channel data in the bottom window:
+
+<figure markdown>
+[![Gif of bar graph demo](./assets/img/spectral_bars_v10.gif)](./assets/img/spectral_bars_v10.gif "Click to enlarge")
+</figure>

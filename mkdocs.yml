@@ -279,7 +279,7 @@ nav:
       - Hardware Assembly: hardware_assembly.md
     - Software:
       - Arduino Library Setup: arduino_setup.md
-      - Arduino Example: arduino_examples.md
+      - Arduino Examples: arduino_examples.md
       - MicroPython Driver Setup: micropython_setup.md
       - MicroPython Examples: micropython_examples.md
     - Resources: resources.md

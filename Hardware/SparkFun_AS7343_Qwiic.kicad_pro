@@ -125,6 +125,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -266,20 +267,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "power_pin_not_driven|1092200|1181100|a4ec67a5-4838-4fa5-94a9-3886ce474efd|00000000-0000-0000-0000-000000000000|/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a|/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|1168400|1282700|343f38b8-89aa-490c-9e39-ded1b783acfe|00000000-0000-0000-0000-000000000000|/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a|/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|723900|508000|9c84786d-4bb0-45b4-bd5d-ad9746778082|00000000-0000-0000-0000-000000000000|/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a|/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a|",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -657,7 +645,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "C:/Users/Studio/Dropbox/Projects/SparkFun_AirQuality_Combo/Hardware/",
+    "plot_directory": "../docs/assets/board_files/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
