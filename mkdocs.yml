@@ -278,10 +278,10 @@ nav:
       - Hardware Overview: hardware_overview.md
       - Hardware Assembly: hardware_assembly.md
     - Software:
-      - Arduino Library Setup: arduino_setup.md
+      - AS7343 Arduino Library Setup: arduino_setup.md
       - Arduino Examples: arduino_examples.md
-      - MicroPython Driver Setup: micropython_setup.md
-      - MicroPython Examples: micropython_examples.md
+      - AS7343 Python Package Setup: micropython_setup.md
+      - Python Examples: micropython_examples.md
     - Resources: resources.md
     - Support:
       - Troubleshooting: troubleshooting.md

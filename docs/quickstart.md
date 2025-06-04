@@ -1,6 +1,6 @@
 In this Quick Start Guide we'll connect the SparkFun Spectral Sensor Breaout - AS7343 (Qwiic) to an IoT RedBoard - ESP32 to output measurements of visible and near-infrared light and display them in a colorful web terminal bar graph.
 
-If you're not familiar with using sensor breakouts, development boards or the development environments covered in this guide, refer to the [Hardware](./hardware_overview.md) & [Arduino Setup](./arduino_setup.md) sections of this Hookup Guide for a detailed overview of the board along with instructions on setting up and using the SparkFun AS7343 Arduino Library.
+If you're not familiar with using sensor breakouts, development boards or the development environments covered in this guide, refer to the [Hardware](./hardware_overview.md) & [Arduino Setup](./arduino_setup.md) sections of this Hookup Guide for a detailed overview of the board along with instructions on setting up and using the SparkFun AS7343 Arduino Library. For those who prefer to run this example in MicroPython, read on to the [AS7343 Python Setup](./micropython_setup.md) and [Python Examples](./micropython_examples.md) sections of this guide.
 
 ## Basic Assembly
 
@@ -10,29 +10,20 @@ As this is a Qwiic breakout, assembling the circuit only requires connecting the
 [![Photo of Qwiic assembly with RedBoard IoT - ESP32](./assets/img/AS7343_Qwiic_Assembly.jpg){ width=600}](./assets/img/AS7343_Qwiic_Assembly.jpg "Click to enlarge")
 </figure>
 
-## Software Setup
+## Arduino Web Terminal Bar Graph Example
 
-The IoT RedBoard - RP2350 comes pre-loaded with MicroPython firmware so users who want to run the example in MicroPython can move on to the Example section below. Arduino requires installing the proper board definitions for the IoT RedBoard - RP2350 (or alternate Arduino dev board of your choosing).
+The Arduino Web Terminal Bar Graph example sets up the AS7343 to output from all channels and format the data to work with the [SparkFun Web Serial Plotter](https://docs.sparkfun.com/SparkFun_WebSerialPlotter/) tool and display it in a bar graph. The Web Terminal Bar Graph site only works in a Chromium-based browser (sorry, no Firefox) and just requires a serial connection over USB to your microcontroller.
 
-### SparkFun AS7343 & Toolkit Arduino Libraries
-
-Install the SparkFun AS7343 Arduino library and SparkFun Toolkit with the [Arduino Library Manager](https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries/) and search for "SparkFun AS7343" and "SparkFun Toolkit". Make sure to install the latest releases.
-
-### IoT RedBoard Definitions
-
-The IoT RedBoard - ESP32 is included in the ESP32 boards package from espressif. Install the boards package in the [Arduino Boards Manager](https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-board-manager/) by searching for "ESP32" and install the latest version.
-
-## Web Terminal Bar Graph Example
-
-The bar graph examples for both Arduino & MicroPython set up the AS7343 to output from all channels and format the data so the web terminal can read it and display it in a bar graph. The Web Terminal Bar Graph example must be run in a Chromium-based browser (sorry, no Firefox) and just requires a serial connection over USB.
-
-* Open "Example 7 - Web Terminal Bar Graphs" in Arduino and select your board (IoT RedBoard - ESP32) and Port.
+* Open the [Arduino IDE](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started-ide-v2/)
+* Open the [Library Manager](https://docs.arduino.cc/software/ide-v1/tutorials/installing-libraries/) tool and search for "SparkFun Toolkit" and "SparkFun AS7343" and install the latest versions of both libraries.
+* If necessary, open the [Boards Manager](https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-board-manager/) and search for "ESP32" to install the IoT RedBoard - ESP32 board definition.
+* Open "Example 7 - Web Terminal Bar Graphs" from the SparkFun AS7343 Arduino Library and select your board (IoT RedBoard - ESP32) and Port.
 * Click the "Upload" button and wait for the code to finish compiling and uploading.
-* Open [this link]() in a browser and select the COM port of the IoT RedBoard.
+* Open [this link](https://docs.sparkfun.com/SparkFun_WebSerialPlotter/) in a browser and select the COM port of the IoT RedBoard.
 * Try moving the Spectral Sensor around and pointing it at different objects/colors and watch the Bar Graph in the bottom half of the window update every 1s like the gif below.
 
 <figure markdown>
-[![Screencapture of bar graph in motion](./assets/img/spectral_bars_v10.gif)](./assets/img/spectral_bars_v10.gif)
+[![Screencapture of bar graph in motion](./assets/img/spectral_bars_v10.gif){ width="600"}](./assets/img/spectral_bars_v10.gif)
 </figure>
 
 **Code to Note**

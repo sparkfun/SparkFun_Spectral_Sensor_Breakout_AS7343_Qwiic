@@ -1,4 +1,6 @@
-
+<figure markdown>
+![Spectral Sensor Breakout Banner Image](./assets/img/AS7343_HG_Banner.png)
+</figure>
 
 The SparkFun Spectral Sensor Breakout - AS7343 (Qwiic) offers a highly accurate but compact spectral analysis tool for both the visible spectrum and near-infrared. The AS7343 senses light between ~380mn to 1000mn over 14 channels with 11 color bands across the visible spectrum, one near-infrared channel, one clear channel (full sensing spectrum) along with flicker detection. The AS7343 also has an interrupt pin to trigger events based on specific measurements from the sensor as well as a programmable GPIO pin to help synchronize measurements with external devices. This breakout comes standard with a bright white LED for taking measurements but also includes connection points for users who wish to use their own LED if needed.
 

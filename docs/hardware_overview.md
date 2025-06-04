@@ -6,7 +6,7 @@ Let's take a closer look at the AS7343 and other hardware on the SparkFun Spectr
 
 ## AS7343 Spectral Sensor
 
-The AS7343 from AMS<sup>&trade;</sup> measures irradiated, reflected and transmitted light in both the visible spectrum and near-infrared (NIR). The sensor package has 14 channels (12 for visible light, 1 for NIR and 1 for flicker detection).
+The AS7343 from AMS<sup>&trade;</sup> measures irradiated, reflected and transmitted light in both the visible spectrum and near-infrared (NIR). The sensor features 14 channels in a 5x5 photodiode array, enabling the detection of 11 specific color bands across the visible spectrum. Additionally, dedicated photodiodes on the outer edges of this array are designed for near-infrared (845-865 nm) and flicker detection. It has exceptional sensitivity for measuring reflected, emitted and transmitted light even in low-light environments and also behind tinted glass. 
 
 ## Power
 
@@ -26,4 +26,8 @@ The board has three solder jumpers labeled <b>I2C</b>, <b>PWR</b> and <b>WLED</b
 
 ## Board Dimensions
 
-The SparkFun Spectral Sensor Breakout - AS7343 matches the Qwiic breakout standard and measures 1" x 1" (22.5mm x 22.5mm) and has four mounting holes that fit a [4-40 screw]().
+The SparkFun Spectral Sensor Breakout - AS7343 matches the Qwiic breakout standard and measures 1" x 1" (22.5mm x 22.5mm) and has four mounting holes that fit a [4-40 screw](https://www.sparkfun.com/screw-phillips-head-1-4-4-40-10-pack.html).
+
+<figure markdown>
+[![Dimensional drawing](./assets/board_files/SparkFun_AS7343_Qwiic-Dimensions.jpg){ width="600"}](./assets/board_files/SparkFun_AS7343_Qwiic-Dimensions.jpg "Click to enlarge")
+</figure>
